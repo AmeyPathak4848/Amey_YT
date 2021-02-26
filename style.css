@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    background-color: red;
+    scroll-behavior: smooth;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#About {
+    width: 100%;
+    height: 1000px;
+    background-color: gray;
+    font-size: 30;
+}
+
+#Work {
+    width: 100%;
+    height: 800px;
+    background-color: purple;
+}
+
+#Con {
+    width: 100%;
+    height: 800px;
+    background-color: green;
+}
+
+img {
+    border-radius: 80%;
+    width: 150px;
+    height: 200px;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+    width: 100%;
+    margin-top: 0px;
+}
+
+#welcome {
+    background: linear-gradient(#34ebc6 0%, #00ff48 100%);
+    padding-top: 100px;
+    text-align: center;
+}
+
+#bio {
+    text-align: center;
+    background: linear-gradient(#34ebc6 0%, #00ff48 100%);
+}
+
+.link {
+    display: inline;
+}
+
+li a {
+    color: white;
+    padding: 14px 8px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: aqua;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.video {
+    width: 200px;
+    height: 400px;
+}
+
+#Con iframe {
+    width: 100%;
+}
